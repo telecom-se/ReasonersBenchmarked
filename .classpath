@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/apache/jena/jena-tdb/0.10.0/jena-tdb-0.10.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/jena/jena-arq/2.10.0/jena-arq-2.10.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/jena/jena-core/2.10.0/jena-core-2.10.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/jena/jena-iri/0.9.5/jena-iri-0.9.5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-log4j12/1.6.4/slf4j-log4j12-1.6.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/log4j/log4j/1.2.17/log4j-1.2.17.jar"/>
+	<classpathentry kind="var" path="M2_REPO/xerces/xercesImpl/2.10.0/xercesImpl-2.10.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpclient/4.2.3/httpclient-4.2.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.4/commons-codec-1.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/jcl-over-slf4j/1.6.4/jcl-over-slf4j-1.6.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-runtime/2.7.7/sesame-runtime-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-model/2.7.7/sesame-model-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-util/2.7.7/sesame-util-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-repository-api/2.7.7/sesame-repository-api-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-query/2.7.7/sesame-query-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-api/2.7.7/sesame-rio-api-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-repository-manager/2.7.7/sesame-repository-manager-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-repository-event/2.7.7/sesame-repository-event-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-repository-sail/2.7.7/sesame-repository-sail-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-sail-api/2.7.7/sesame-sail-api-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-queryalgebra-model/2.7.7/sesame-queryalgebra-model-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-queryparser-api/2.7.7/sesame-queryparser-api-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-sail-memory/2.7.7/sesame-sail-memory-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-sail-inferencer/2.7.7/sesame-sail-inferencer-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-queryparser-serql/2.7.7/sesame-queryparser-serql-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-queryalgebra-evaluation/2.7.7/sesame-queryalgebra-evaluation-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-repository-sparql/2.7.7/sesame-repository-sparql-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-http-client/2.7.7/sesame-http-client-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-http-protocol/2.7.7/sesame-http-protocol-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-ntriples/2.7.7/sesame-rio-ntriples-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-datatypes/2.7.7/sesame-rio-datatypes-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-languages/2.7.7/sesame-rio-languages-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-queryresultio-api/2.7.7/sesame-queryresultio-api-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-queryparser-sparql/2.7.7/sesame-queryparser-sparql-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-queryresultio-sparqlxml/2.7.7/sesame-queryresultio-sparqlxml-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-repository-http/2.7.7/sesame-repository-http-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-repository-contextaware/2.7.7/sesame-repository-contextaware-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-sail-federation/2.7.7/sesame-sail-federation-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-turtle/2.7.7/sesame-rio-turtle-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-queryresultio-binary/2.7.7/sesame-queryresultio-binary-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-queryresultio-sparqljson/2.7.7/sesame-queryresultio-sparqljson-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/core/jackson-core/2.2.1/jackson-core-2.2.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-queryresultio-text/2.7.7/sesame-queryresultio-text-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/sf/opencsv/opencsv/2.0/opencsv-2.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-repository-dataset/2.7.7/sesame-repository-dataset-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-binary/2.7.7/sesame-rio-binary-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-nquads/2.7.7/sesame-rio-nquads-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-n3/2.7.7/sesame-rio-n3-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-rdfjson/2.7.7/sesame-rio-rdfjson-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-rdfxml/2.7.7/sesame-rio-rdfxml-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-trix/2.7.7/sesame-rio-trix-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-trig/2.7.7/sesame-rio-trig-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-sail-nativerdf/2.7.7/sesame-sail-nativerdf-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-sail-rdbms/2.7.7/sesame-sail-rdbms-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-dbcp/commons-dbcp/1.3/commons-dbcp-1.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-cli/commons-cli/1.2/commons-cli-1.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/guava/guava/16.0.1/guava-16.0.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/junit/junit/4.11/junit-4.11.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
