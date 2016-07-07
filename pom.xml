@@ -9,7 +9,7 @@
 		<repository>
 			<id>in-project</id>
 			<name>In project repo</name>
-			<url>file:///home/satin/inferray/ReasonersBenchmarked/libs</url>
+			<url>file:///home/ubuntu/Code/ReasonersBenchmarked/libs/</url>
 		</repository>
 		<repository>
 			<id>inferray-mvn-repo</id>
@@ -88,13 +88,13 @@
 			<version>5.5</version>
 			<type>jar</type>
 		</dependency>
-		
+		-->
 		<dependency>
 			<groupId>net.sourceforge.owlapi</groupId>
 			<artifactId>owlapi-api</artifactId>
 			<version>${owlapi.version}</version>
 		</dependency>
-		-->
+		
 		<dependency>
 			<groupId>net.sourceforge.owlapi</groupId>
 			<artifactId>owlapi-apibinding</artifactId>
@@ -106,6 +106,7 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		
 		<dependency>
 			<groupId>fr.ujm.tse.lt2c.satin</groupId>
 			<artifactId>inferray-core</artifactId>
@@ -207,12 +208,14 @@
 			<artifactId>log4j-over-slf4j</artifactId>
 			<version>1.7.13</version>
 		</dependency>
-		<!-- <dependency> -->
-		<!-- <groupId>org.slf4j</groupId> -->
-		<!-- <artifactId>slf4j-simple</artifactId> -->
-		<!-- <version>1.7.13</version> -->
-		<!-- <scope>runtime</scope> -->
-		<!-- </dependency> -->
+		
+		<dependency>
+		<groupId>org.slf4j</groupId>
+		<artifactId>slf4j-simple</artifactId>
+		 <version>1.7.13</version>
+		 <scope>runtime</scope>
+		</dependency>
+
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
@@ -330,6 +333,11 @@
 	</dependencies>
 	<build>
 		<plugins>
+			<!--<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>wagon-maven-plugin</artifactId>
+				<version>1.0</version>
+			</plugin>-->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-shade-plugin</artifactId>

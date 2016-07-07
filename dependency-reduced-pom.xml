@@ -86,7 +86,7 @@
     <repository>
       <id>in-project</id>
       <name>In project repo</name>
-      <url>file:///home/satin/inferray/ReasonersBenchmarked/libs</url>
+      <url>file:///home/ubuntu/Code/ReasonersBenchmarked/libs/</url>
     </repository>
     <repository>
       <snapshots>
@@ -142,7 +142,6 @@
   </dependencies>
   <properties>
     <rdfox.version>1.3</rdfox.version>
-    <owlim-distributable.directory>/home/satin/Downloads/owlim-se-5.5.7071</owlim-distributable.directory>
     <inferray.version>0.0.3-SNAPSHOT</inferray.version>
     <guava.version>16.0.1</guava.version>
     <commonscli.version>1.2</commonscli.version>
