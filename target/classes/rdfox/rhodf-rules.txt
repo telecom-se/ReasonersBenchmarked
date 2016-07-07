@@ -1,0 +1,27 @@
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+
+# prp_dom
+[ ?x, rdf:type, ?c ] :- [ ?p, rdfs:domain, ?c ], [ ?x, ?p, ?y ] .
+
+# prp_rng
+[ ?y, rdf:type, ?c ] :- [ ?p, rdfs:range, ?c], [ ?x, ?p, ?y ] .
+
+# prp_spo1
+[ ?x, ?p2, ?y ] :- [ ?p1, rdfs:subPropertyOf, ?p2 ], [ ?x, ?p1, ?y ] .
+
+# cax_sco
+[?x, rdf:type, ?c2] :- [ ?c1, rdfs:subClassOf, ?c2 ], [?x, rdf:type, ?c1 ] .
+
+# scm_dom2
+[ ?p1, rdfs:domain, ?c ] :- [ ?p2, rdfs:domain, ?c ], [?p1, rdfs:subPropertyOf, ?p2 ] .
+
+# scm_rng2
+[?p1, rdfs:range, ?c ] :- [ ?p2, rdfs:range, ?c ], [ ?p1, rdfs:subPropertyOf, ?p2 ] .
+
+# scm_sco
+[ ?c1, rdfs:subClassOf, ?c3 ] :- [ ?c1, rdfs:subClassOf, ?c2 ], [ ?c2, rdfs:subClassOf, ?c3 ] .
+
+# scm_spo
+[ ?p1, rdfs:subPropertyOf, ?p3 ] :- [ ?p1, rdfs:subPropertyOf, ?p2 ], [?p2, rdfs:subPropertyOf, ?p3 ] .

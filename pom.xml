@@ -44,7 +44,10 @@
 
 		<!-- CHANGE THIS TO YOUR CONFIGURATION : you do not have the permission 
 			to distribute owlimse ! -->
+			<!-- 
+		 Uncomment to use USE-RB with OWLIM
 		<owlim-distributable.directory>/home/satin/Downloads/owlim-se-5.5.7071</owlim-distributable.directory>
+		-->
 		<!-- END OF THE REQUIRED MODIFICATION FROM YOU -->
 		<commonsconfig.version>1.10</commonsconfig.version>
 		<jenalib.version>3.0.0</jenalib.version>
@@ -76,17 +79,22 @@
 			<version>${rdfox.version}</version>
 			<type>jar</type>
 		</dependency>
+		
+		<!-- 
+		 Uncomment to use USE-RB with OWLIM
 		<dependency>
 			<groupId>owlim</groupId>
 			<artifactId>se</artifactId>
 			<version>5.5</version>
 			<type>jar</type>
 		</dependency>
+		
 		<dependency>
 			<groupId>net.sourceforge.owlapi</groupId>
 			<artifactId>owlapi-api</artifactId>
 			<version>${owlapi.version}</version>
 		</dependency>
+		-->
 		<dependency>
 			<groupId>net.sourceforge.owlapi</groupId>
 			<artifactId>owlapi-apibinding</artifactId>
@@ -275,6 +283,8 @@
 		</dependency>
 
 		<!-- Owlim deps in ./ext/*.jar -->
+		<!-- 
+		 Uncomment to use USE-RB with OWLIM
 		<dependency>
 			<groupId>org.apache.lucene</groupId>
 			<artifactId>lucene-analyzers</artifactId>
@@ -315,6 +325,7 @@
 			<artifactId>trove4j</artifactId>
 			<version>2.0.2</version>
 		</dependency>
+		-->
 		<!-- END Owlim deps in ./ext/*.jar -->
 	</dependencies>
 	<build>
